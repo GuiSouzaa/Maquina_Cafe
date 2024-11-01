@@ -1,7 +1,6 @@
-from Cafe import Cafe
-class CafeLeite(Cafe):
-    def __init__(self):
-        super().__init__("cafe com leite")
+class CafeLeite():
+    def __init__(self, sabor):
+        self.sabor = sabor
 
     def escolhido(self):
-        print('o sabor escolhido foi cafe com leite')
+        print('o sabor escolhido foi café com leite')

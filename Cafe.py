@@ -3,4 +3,4 @@ class Cafe():
         self.sabor = sabor
     
     def escolhido(self):
-        print('O sabor escolhido foi cafe')
+        print('O sabor escolhido foi café')

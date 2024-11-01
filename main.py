@@ -17,10 +17,12 @@ if __name__ == "__main__":
     # maquinaCafeComLeite.escolhido()
 
     maquina01 = Maquina(False)
-    ligar_maquina(maquina01)
-    
-    cafe = Cafe("café")
-    cafeleite = CafeLeite()
+    maquina01.ligar()
+
+    maquina01.definir_acucar()
+
+    cafe = Cafe('')
+    cafeleite = CafeLeite('')
 
     
     escolherTipo(maquina01, cafe, cafeleite)
