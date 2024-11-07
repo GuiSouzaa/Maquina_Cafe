@@ -18,12 +18,12 @@ def escolherTipo(maquina, cafe, cafeleite):
         print('Maquina desligada, volte mais tarde')
         return
     
-    tipo = input('cafe/ cafeLeite')
+    tipo = input('cafe(1) / cafeLeite(2)')
 
-    if tipo.lower() == 'cafe':
+    if tipo.lower() == '1':
         cafe.escolhido()
     
-    elif tipo.lower() == 'cafeleite':
+    elif tipo.lower() == '2':
         cafeleite.escolhido()
     else:
         print('Escolha invalida')

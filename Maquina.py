@@ -16,20 +16,20 @@ class Maquina:
             print('Maquina está DESLIGADA')
 
     def definir_acucar(self):
-        qtnAcucar = input('Digite de 1g, 2g ou 3g de acucar')
+        qtnAcucar = input('Digite a quantidade de açucar: 1g, 2g ou 3g')
 
         if qtnAcucar == '1':
             self.acucar = 1
-            print('1g de acucar inserido')
+            print('1g de açucar inserido')
 
         elif qtnAcucar == '2':
             self.acucar = 2
-            print('2g de acucar')
+            print('2g de açucar')
 
         elif qtnAcucar == '3':
             self.acucar = 3
-            print('3g de acucar inserido')
+            print('3g de açucar inserido')
 
         else:
             self.acucar = 0
-            print('0 acucar')
+            print('0 açucar')
